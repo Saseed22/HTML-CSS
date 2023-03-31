@@ -1,296 +1,369 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Dove</title> 
-    <link rel="title icon" type="image/png" href="images/logo.png">  
+    <title>Html-CSS</title> 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./bootstrap.min.css" >
     <link rel="stylesheet" href="css/bootstrap.fa.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
   </head>
   <body >
     <!-- navbar -->
+    
     <navbar class="navbar navbar-expand-md shadow-sm navbar-dark ">
-      <button class="navbar-toggle bg-info border d-block d-md-none "data-bs-toggle="collapse" data-bs-target="#my-nav" type="button">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a href="" class="navbar-brand text-warning ml-3">
-        <i class="fas fa-dove" style="font-size:25px ;" ></i>
-      </a>
-     <div class="collapse navbar-collapse" id="my-nav">
-      <ul class="navbar-nav list-unstyled my-3 my-md-0">
+      <div>
+        <button class="navbar-toggle border d-block d-md-none " data-bs-toggle="collapse" data-bs-target="#my-nav" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+          <a class="navbar-brand d-sm-none" href="#">
+            <img src="images/get-started.png" class="ml-2 rounded" style="width:50px ; height:50px alt="/">
+          </a>
+       <div class="collapse navbar-collapse" id="my-nav">
+        <ul class="navbar-nav list-unstyled my-3 my-md-0">
         <li class="navbar-item mx-2">
-          <a href="" class="navbar-link" style="color:grey ;">خانه</a>
+          <a href="" class="navbar-link" style="color:grey ;">صفحه اصلی</a>
         </li>
         <li class="navbar-item mx-2">
-          <a href="" class="navbar-link" style="color:grey ;">گالری</a>
-        </li>
-        <li class="navbar-item mx-2 dropdown">
-          <a href="" class="navbar-link dropdown-toggle" data-bs-toggle="dropdown" style="color:grey ;">محصولات</a>
-          <div class="dropdown-menu">
-            <a href="" class="dropdown-item">مرطوب کننده</a>
-            <a href="" class="dropdown-item">صابون</a>
-            <a href="" class="dropdown-item"> پک داو</a>
-          </div>
+          <a href="" class="navbar-link" style="color:grey ;">پروژه ها</a>
         </li>
         <li class="navbar-item mx-2">
-          <a href="" class="navbar-link" style="color:grey ;">مشتریان</a>
+          <a href="" class="navbar-link" style="color:grey ;">محصولات</a>
+        </li>
+        <li class="navbar-item mx-2">
+          <a href="" class="navbar-link" style="color:grey ;">درباره ما</a>
+        </li>
+        
+        <li class="navbar-item mx-2">
+          <a href="" class="navbar-link" style="color:grey ;">گواهینامه ها</a>
+        </li>
+        <li class="navbar-item mx-2">
+          <a href="" class="navbar-link" style="color:grey ;">تماس با ما</a>
         </li>
       </ul>
-      <form action="" class="form-inline mr-auto">
-        <div class="input-group">
-          <input type="text" placeholder="جستجو" class="form-control">
-          <div class="input-group-append">
-            <button class="btn btn-outline-secondary">
-              <i class="fas fa-search"></i>
-            </button>
-          </div>
-        </div>
-      </form>
      </div>
+     <a class="navbar-brand mr-auto d-none d-sm-block" href="#">
+      <img src="images/get-started.png" class="ml-2 rounded" style="width:50px ; height:50px alt="/">
+    </a>
     </navbar>
+
     <!-- end of navbar -->
 
-    <!-- banner -->
-    <section class="container-fluid">
-      <div class="row bg-warning align-items-lg-center " style="height: 95vh;">
-        <div class="col-md-6 col-lg-8 text-center">
-          <h1 class="display-3 text-white"><span>داو  </span>دوستدار پوست شما</h1>
-          <h2 class="display-4 my-5">داو فرق میکنه!</h2>
-          <a href="" class="btn btn-light btn-lg">باشگاه مشتریان</a>
-          <a href="" class="btn btn-outline-light btn-lg">وبلاگ</a>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <img src="./images/products.png" alt="" class="img-fluid d-none d-md-block">
-        </div>
-      </div>
+
+      <!-- Slider -->
+      <swiper-container class="text-center " >
+        <swiper-slide>
+          <img  class="xss sms mds lgs xls" src="images/g1.jpg" alt="">
+        </swiper-slide>
+        <swiper-slide>
+          <img  class="xss sms mds lgs xls" src="images/g2.jpg" alt="">
+        </swiper-slide>
+        <swiper-slide>
+          <img class="xss sms mds lgs xls"  src="images/b1.jpg" alt="">
+        </swiper-slide>
+        <swiper-slide >
+          <img  class="xss sms mds lgs xls" src="images/b2.jpg" alt="">
+        </swiper-slide>
+      </swiper-container>
+      <!-- Slider -->
+
+    <!-- section one -->
+   <section class="container mt-5">
+    <h1 class="text-center">lorem epsilon</h1>
+      <p class="pt-2  xs mdt">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem dolorum accusantium adipisci voluptatum animi magni? Sapiente totam exercitationem itaque illum voluptatum doloremque, ut corrupti fugiat ratione sit enim autem ex debitis beatae provident asperiores neque expedita atque eaque earum eligendi maiores esse voluptas et! Soluta enim aut itaque saepe hic asperiores voluptatibus eaque perspiciatis, incidunt autem, eius et magnam ipsa optio reiciendis expedita ea facilis voluptates, minima voluptas laboriosam? Quisquam ullam, sequi repellendus temporibus nam tempore autem rerum eum cupiditate rem laborum, nesciunt culpa, excepturi vitae distinctio perspiciatis quam dolor! Sapiente, vel excepturi? Veritatis quo, rerum quisquam error fugiat odio.
+      </p>
     </section>  
-    <!-- end of banner -->
+    <!-- end of section one  -->
+
+
+
     <!-- feature -->
     <section class="bg-light py-5">
-      <div class="container">
-        <div class="text-center">
-          <h1 class="text-warning">مدیون شما هستیم</h1>
-          <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum a inventore aliquam qui 
-            iusto assumenda deleniti alias. Adipisci, earum maiores?</p>
-        </div>
-        <div class="row my-5 text-center">
-          <div class="col-md-4 col-sm-6 px-4 mb-5">
-            <i class="fas fa-award text-warning" style="font-size:100px ;"></i>
-            <h1 class="text-secondary mt-3">نشان برتر</h1>
-            <p class="text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam 
-              omnis et suscipit odio minima expedita.</p>
-          </div>
-          <div class="col-md-4 col-sm-6 px-4 mb-5">
-            <i class="fas fa-leaf text-success" style="font-size:100px ;"></i>
-            <h1 class="text-success mt-3">نشان سیب سلامت</h1>
-            <p class="text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam 
-              omnis et suscipit odio minima expedita.</p>
-          </div>
-          <div class="col-md-4 col-sm-12 px-4 mb-5">
-            <i class="fas fa-heart text-danger" style="font-size:100px ;"></i>
-            <h1 class="text-danger mt-3">نشان مشتری مداری</h1>
-            <p class="text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam 
-              omnis et suscipit odio minima expedita.</p>
-          </div>
-        </div>
+      <div class="text-center">
+        <h1 class="text-dark">Your Title</h1>
       </div>
+      <div class="container lgd">
+          <div class="row my-5 ">
+            <div class="text-center col-xl-5 px-4 mb-5">
+              <img src="images/b3.jpg" class="smp xsp mdp lgp xlp" />
+            </div>
+            <div class="col-xl-7">
+              <h1 class="text-warning mt-1 mr-5">نشان برتر</h1>
+              <p class="text-muted  px-5 text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, similique, magnam possimus consectetur eum in natus magni mollitia id inventore dolore quam. Qui deleniti consequatur minus quibusdam fugiat repudiandae quo! Adipisci quod quidem voluptates sit quaerat enim reiciendis quas numquam labore excepturi dolores qui recusandae quo doloribus, consectetur sequi quam.</p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row my-5 ">
+            <div class="text-center col-xl-5 px-4 mb-5">
+              <img src="images/b3.jpg" class="smp xsp mdp lgp xlp" />
+            </div>
+            <div class="col-xl-7">
+              <h1 class="text-warning mt-1 mr-5">نشان برتر</h1>
+              <p class="text-muted  px-5 text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, similique, magnam possimus consectetur eum in natus magni mollitia id inventore dolore quam. Qui deleniti consequatur minus quibusdam fugiat repudiandae quo! Adipisci quod quidem voluptates sit quaerat enim reiciendis quas numquam labore excepturi dolores qui recusandae quo doloribus, consectetur sequi quam.</p>
+            </div>
+          </div>
+        </div>
+        <div class="container lgd">
+          <div class="row my-5 ">
+            <div class="text-center col-xl-5 px-4 mb-5">
+              <img src="images/b3.jpg" class="smp xsp mdp lgp xlp" />
+            </div>
+            <div class="col-xl-7">
+              <h1 class="text-warning mt-1 mr-5">نشان برتر</h1>
+              <p class="text-muted  px-5 text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, similique, magnam possimus consectetur eum in natus magni mollitia id inventore dolore quam. Qui deleniti consequatur minus quibusdam fugiat repudiandae quo! Adipisci quod quidem voluptates sit quaerat enim reiciendis quas numquam labore excepturi dolores qui recusandae quo doloribus, consectetur sequi quam.</p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row my-5 ">
+            <div class="text-center col-xl-5 px-4 mb-5">
+              <img src="images/b3.jpg" class="smp xsp mdp lgp xlp" />
+            </div>
+            <div class="col-xl-7">
+              <h1 class="text-warning mt-1 mr-5">نشان برتر</h1>
+              <p class="text-muted  px-5 text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, similique, magnam possimus consectetur eum in natus magni mollitia id inventore dolore quam. Qui deleniti consequatur minus quibusdam fugiat repudiandae quo! Adipisci quod quidem voluptates sit quaerat enim reiciendis quas numquam labore excepturi dolores qui recusandae quo doloribus, consectetur sequi quam.</p>
+            </div>
+          </div>
+        </div>
+      
     </section>
     <!-- end of feature -->
-    <!-- products-->
-    <section class="py-5">
-      <div class="container">
-        <div class="text-center">
-          <h1 class="text-warning"> کیفیت رمز اعتبار ماست </h1>
-          <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum a inventore aliquam qui 
-            iusto assumenda deleniti alias. Adipisci, earum maiores?</p>
-        <div class="row my-5 text-center">
-          <div class="col-md-4 col-sm-6 mt-md-5 p-5">
-            <img src="images/p1.jpg" alt="" class="img-thumbnail">
-            <h2 class="my-2 text-secondary">نرم کننده</h2>
-            <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, nulla?</p>
-          </div>
-          <div class="col-md-4 col-sm-6 p-5">
-            <img src="images/p2.jpg" alt="" class="img-thumbnail">
-            <h2 class="my-2 text-secondary">خوشبو کننده</h2>
-            <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, nulla?</p>
-          </div>
-          <div class="col-md-4 col-sm-12 mt-md-5 p-5">
-            <img src="images/p3.jpg" alt="" class="img-thumbnail">
-            <h2 class="my-2 text-secondary">صابون</h2>
-            <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, nulla?</p>
-          </div>
-        </div>    
-        </div>
-      </div>
+
+
+    <!-- video-->
+    <section class="py-5 text-center sm">
+      <video src="video/Solar.mp4" class="xsv smv mdv lgd xlv"  muted loop autoplay>sasss</video>
     </section>
-    <!-- end of products -->
+    <!-- end of video -->
+
+
     <!-- blog  -->
-    <section class="bg-secondary p-5">
-      <div class="container-fluid">
+    <div class="my-5">
+    <h1 class="text-center">Lorem, ipsum dolor.</h1>
+    <div class="row align-items-center justify-content-center ">
+    <section class="bg-secondary col-12 col-md-5  col-xl-3 m-2 p-5">
         <h1 class="text-warning text-center mb-5">تازه های وبلاگ</h1>
-        <div class="row">
-          <div class="col-md-3 col-sm-6 px-3 mb-5">
-            <div class="card">
-              <img src="images/b1.jpg" alt="" class="card-img-top">
-              <div class="card-body">
-                <div class="card-title">
-                  <h3 class="text-secondary">دانستنی ها</h3>
-                </div>
-                <div class="card-subtitle my-4">
-                  <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, excepturi.</p>
-                </div>
-                <div class="text-right">
-                  <a href="">
-                    <i class="fab fa-facebook ml-3 text-primary" style="font-size:30px ;"></i>
-                  </a>
-                  <a href="">
-                    <i class="fab fa-twitter ml-3 text-info" style="font-size:30px ;"></i>
-                  </a>
-                  <a href="">
-                    <i class="fab fa-youtube ml-3 text-danger" style="font-size:30px ;"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
+        <div class="row d-sm-none">
+          <div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+              <h1 class="bg-danger  text-center">lorem</h1>
           </div>
-          <div class="col-md-3 col-sm-6 px-3 mb-5">
-            <div class="card">
-              <img src="images/b2.jpg" alt="" class="card-img-top">
-              <div class="card-body">
-                <div class="card-title">
-                  <h3 class="text-secondary">دانستنی ها</h3>
-                </div>
-                <div class="card-subtitle my-4">
-                  <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, excepturi.</p>
-                </div>
-                <div class="text-right">
-                  <a href="">
-                    <i class="fab fa-facebook ml-3 text-primary" style="font-size:30px ;"></i>
-                  </a>
-                  <a href="">
-                    <i class="fab fa-twitter ml-3 text-info" style="font-size:30px ;"></i>
-                  </a>
-                  <a href="">
-                    <i class="fab fa-youtube ml-3 text-danger" style="font-size:30px ;"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 px-3 mb-5">
-            <div class="card">
-              <img src="images/b3.jpg" alt="" class="card-img-top">
-              <div class="card-body">
-                <div class="card-title">
-                  <h3 class="text-secondary">دانستنی ها</h3>
-                </div>
-                <div class="card-subtitle my-4">
-                  <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, excepturi.</p>
-                </div>
-                <div class="text-right">
-                  <a href="">
-                    <i class="fab fa-facebook ml-3 text-primary" style="font-size:30px ;"></i>
-                  </a>
-                  <a href="">
-                    <i class="fab fa-twitter ml-3 text-info" style="font-size:30px ;"></i>
-                  </a>
-                  <a href="">
-                    <i class="fab fa-youtube ml-3 text-danger" style="font-size:30px ;"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 px-3 mb-5">
-            <div class="card">
-              <img src="images/b4.jpg" alt="" class="card-img-top">
-              <div class="card-body">
-                <div class="card-title">
-                  <h3 class="text-secondary">دانستنی ها</h3>
-                </div>
-                <div class="card-subtitle my-4">
-                  <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, excepturi.</p>
-                </div>
-                <div class="text-right">
-                  <a href="">
-                    <i class="fab fa-facebook ml-3 text-primary" style="font-size:30px ;"></i>
-                  </a>
-                  <a href="">
-                    <i class="fab fa-twitter ml-3 text-info "  style="font-size:30px ;"></i>
-                  </a>
-                  <a href="">
-                    <i class="fab fa-youtube ml-3 text-danger" style="font-size:30px ;"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          <div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+            <h1 class="bg-danger  text-center">lorem</h1>
         </div>
+        <div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+          <h1 class="bg-danger  text-center">lorem</h1>
+      </div>
+      <div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+        <h1 class="bg-danger  text-center">lorem</h1>
+    </div>
+        </div>
+    </section>
+    <section class="bg-secondary col-12 col-md-5  col-xl-3 m-2 p-5">
+      <h1 class="text-warning text-center mb-5">تازه های وبلاگ</h1>
+      <div class="row d-sm-none">
+        <div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+            <h1 class="bg-danger  text-center">lorem</h1>
+        </div>
+        <div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+          <h1 class="bg-danger  text-center">lorem</h1>
+      </div>
+      <div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+        <h1 class="bg-danger  text-center">lorem</h1>
+    </div>
+    <div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+      <h1 class="bg-danger  text-center">lorem</h1>
+  </div>
       </div>
     </section>
+    <section class="bg-secondary col-12 col-md-5  col-xl-3 m-2 p-5">
+    <h1 class="text-warning text-center mb-5">تازه های وبلاگ</h1>
+    <div class="row d-sm-none">
+      <div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+          <h1 class="bg-danger  text-center">lorem</h1>
+      </div>
+      <div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+        <h1 class="bg-danger  text-center">lorem</h1>
+    </div>
+    <div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+      <h1 class="bg-danger  text-center">lorem</h1>
+  </div>
+  <div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+    <h1 class="bg-danger  text-center">lorem</h1>
+</div>
+    </div>
+    </section>
+    <section class="bg-secondary col-12 col-md-5  col-xl-3 m-2 p-5">
+  <h1 class="text-warning text-center mb-5">تازه های وبلاگ</h1>
+  <div class="row d-sm-none">
+    <div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+        <h1 class="bg-danger  text-center">lorem</h1>
+    </div>
+    <div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+      <h1 class="bg-danger  text-center">lorem</h1>
+  </div>
+  <div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+    <h1 class="bg-danger  text-center">lorem</h1>
+</div>
+<div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+  <h1 class="bg-danger  text-center">lorem</h1>
+</div>
+  </div>
+    </section>
+    <section class="bg-secondary col-12 col-md-5  col-xl-3 m-2 p-5">
+  <h1 class="text-warning text-center mb-5">تازه های وبلاگ</h1>
+  <div class="row d-sm-none">
+    <div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+        <h1 class="bg-danger  text-center">lorem</h1>
+    </div>
+    <div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+      <h1 class="bg-danger  text-center">lorem</h1>
+  </div>
+  <div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+    <h1 class="bg-danger  text-center">lorem</h1>
+</div>
+<div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+  <h1 class="bg-danger  text-center">lorem</h1>
+</div>
+  </div>
+    </section>
+    <section class="bg-secondary col-12 col-md-5  col-xl-3 m-2 p-5">
+  <h1 class="text-warning text-center mb-5">تازه های وبلاگ</h1>
+  <div class="row d-sm-none">
+    <div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+        <h1 class="bg-danger  text-center">lorem</h1>
+    </div>
+    <div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+      <h1 class="bg-danger  text-center">lorem</h1>
+  </div>
+  <div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+    <h1 class="bg-danger  text-center">lorem</h1>
+</div>
+<div class="col-6 col-md-3 px-1 pt-2 mb-3 ">
+  <h1 class="bg-danger  text-center">lorem</h1>
+</div>
+  </div>
+    </section>
+    </div>
+  </div>
     <!-- end of blog  -->
-    <!-- contact -->
+
+
+    <!-- button -->
+    <div class="bg-secondary container-fluid text-center md lg xl p-5">
+      <div class="bg-light lgh p-4  ">       
+        <h2 class="text-dark">
+          Lorem, ipsum dolor.
+        </h2>
+        <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloribus numquam optio suscipit deserunt porro minima. Impedit modi non et vel illo, alias adipisci veritatis quasi iure rem ad explicabo.</p>
+         <button class="px-4 mb-4">lorem epsom</button>         
+      </div>
+    </div>
+    <!-- end of button -->
+
+    
+<!-- feature -->
+<section class="bg-light py-5">
+    <h1 class="text-dark text-center">مدیون شما هستیم</h1> 
+  <div class="container">
+    <div class="row my-5">
+      <div class=" col-sm-12 lgrel text-center text-lg-left px-4 mb-5">
+        <img src="images/b3.jpg" class="smp xsp mdp lgp2 xlp2" />
+      </div>
+      <div class="lgabs">
+      <h1 class="text-warning mt-1 mr-5">نشان برتر</h1>
+      <p class="text-muted  px-5 text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, similique, magnam possimus consectetur eum in natus magni mollitia id inventore dolore quam. Qui deleniti consequatur minus quibusdam fugiat repudiandae quo! Adipisci quod quidem voluptates sit quaerat enim reiciendis quas numquam labore excepturi dolores qui recusandae quo doloribus, consectetur sequi quam.</p>
+      </div>
+  </div>
+  </div>
+  <div class="container">
+    <div class="row my-5">
+      <div class=" col-sm-12 lgrel text-center text-lg-right px-4 mb-5">
+        <img src="images/b3.jpg" class="smp xsp mdp lgp2 xlp2" />
+      </div>
+      <div class="lgabs2 ">
+      <h1 class="text-warning mt-1 mr-5">نشان برتر</h1>
+      <p class="text-muted  px-5 text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, similique, magnam possimus consectetur eum in natus magni mollitia id inventore dolore quam. Qui deleniti consequatur minus quibusdam fugiat repudiandae quo! Adipisci quod quidem voluptates sit quaerat enim reiciendis quas numquam labore excepturi dolores qui recusandae quo doloribus, consectetur sequi quam.</p>
+      </div>
+  </div>
+  </div>
+  <div class="container">
+    <div class="row my-5">
+      <div class=" col-sm-12 lgrel text-center text-lg-left px-4 mb-5">
+        <img src="images/b3.jpg" class="smp xsp mdp lgp2 xlp2 " />
+      </div>
+      <div class="lgabs">
+      <h1 class="text-warning mt-1 mr-5">نشان برتر</h1>
+      <p class="text-muted  px-5 text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, similique, magnam possimus consectetur eum in natus magni mollitia id inventore dolore quam. Qui deleniti consequatur minus quibusdam fugiat repudiandae quo! Adipisci quod quidem voluptates sit quaerat enim reiciendis quas numquam labore excepturi dolores qui recusandae quo doloribus, consectetur sequi quam.</p>
+      </div>
+  </div>
+  </div>
+  <div class="container">
+    <div class="row my-5">
+      <div class=" col-sm-12 lgrel text-center text-lg-right px-4 mb-5">
+        <img src="images/b3.jpg" class="smp xsp mdp lgp2 xlp2" />
+      </div>
+      <div class="lgabs2 ">
+      <h1 class="text-warning mt-1 mr-5">نشان برتر</h1>
+      <p class="text-muted  px-5 text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, similique, magnam possimus consectetur eum in natus magni mollitia id inventore dolore quam. Qui deleniti consequatur minus quibusdam fugiat repudiandae quo! Adipisci quod quidem voluptates sit quaerat enim reiciendis quas numquam labore excepturi dolores qui recusandae quo doloribus, consectetur sequi quam.</p>
+      </div>
+  </div>
+  </div>
+  <div class="container">
+    <div class="row my-5">
+      <div class=" col-sm-12 lgrel text-center text-lg-left px-4 mb-5">
+        <img src="images/b3.jpg" class="smp xsp mdp lgp2 xlp2" />
+      </div>
+      <div class="lgabs">
+      <h1 class="text-warning mt-1 mr-5">نشان برتر</h1>
+      <p class="text-muted  px-5 text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, similique, magnam possimus consectetur eum in natus magni mollitia id inventore dolore quam. Qui deleniti consequatur minus quibusdam fugiat repudiandae quo! Adipisci quod quidem voluptates sit quaerat enim reiciendis quas numquam labore excepturi dolores qui recusandae quo doloribus, consectetur sequi quam.</p>
+      </div>
+  </div>
+  </div>
+  </section>
+    <!-- end of feature -->
+
+
+    <!-- Contact -->
     <section class="bg-light p-5">
-      <div class="container-fluid">
-        <div class="text-center">
-          <h1 class="text-warning">ارتباط با ما</h1>
+      <div class="container-fluid text-center">
+        <div class="text-center ">
+          <h1 class="text-warning"> با ما تماس بگیرید</h1>
           <p class="text-muted my-5">
-            Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. In optio sint culpa. Praesentium debitis molestias, corrupti non explicabo, eveniet vitae similique facere itaque, magni nostrum impedit officia obcaecati? Repellat asperiores, nihil ex sed veniam aliquam perferendis inventore cum officia error velit quo, odio illo quidem quisquam dolorum, aperiam consequuntur excepturi!
           </p>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <h3 class="text-secondary my-5">نظرات انتقادات پیشنهادات</h3>
-            <form action="" class="text-muted">
-              <div class="form-group">
-                <label for="name">نام</label>
-                <input id="name" type="text" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="email">ایمیل</label>
-                <input id="email" type="text" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="messages">پیام</label>
-                <textarea id="messages"  class="form-control" cols="30" rows="3"></textarea>
-              </div>
-              <button class="btn btn-block btn-outline-danger">ارسال</button>
-            </form>
-          </div>
-        </div>
+        </div class="row ">
+              <button class="btn col-sm-3 mx-3 my-2 btn-outline-dark act">ایمیل</button>
+              <button class="btn col-sm-3 mx-3 my-2 btn-outline-dark act">واتساب</button>
+              <button class="btn col-sm-3 mx-3 my-2 btn-outline-dark act">تلفن</button>
       </div>
     </section>
-    <!-- end of contact -->
+   <!-- end of Contact -->
+
     <!-- footer  -->
-    <footer class="bg-secondary p-5">
+    <footer class="bg-secondary py-5">
       <div class="container text-center">
-        <h1 class="diplay-3">
-          <a href="" class="text-warning">
-            <i class="fas fa-dove"></i>
-          </a>
-        </h1>
-        <h2 class="text-white">
-          داو همیشه با شماست
-        </h2>
-        <div class="my-5">
-          <a href="">
-            <i class="fab fa-instagram text-danger ml-3 " style="font-size:50px ;"></i>
-          </a>
-          <a href="">
-            <i class="fab fa-telegram text-primary ml-3 " style="font-size:50px ;"></i>
-          </a>
-          <a href="">
-            <i class="fab fa-amazon text-white ml-3 " style="font-size:50px ;"></i>
-          </a>
-        </div>
-        <p class="text-white">ایجاد شده توسط گاندالف &copy;</p>
+      <div class="row justify-content-center ">
+        <div class=" border-left px-2 px-lg-5">معماری</div>
+        <div class=" border-left px-2 px-lg-5">محصولات</div>
+        <div class=" border-left px-2 px-lg-5">بلاگ</div>
+        <div class=" border-left px-2 px-lg-5">کاتالوگ ها</div>
+        <div class=" border-left px-2 px-lg-5">واژه نامه</div>
+        <div class="  px-2 px-lg-5">فضاها</div>
       </div>
+      <hr style="border-width:2px;border-color: black;"/>
+      <div class="d-lg-flex justify-content-around">
+        <p class="text-white">تمامی حقوق این وبسایت متعلق به شرکت سفارش دهنده می باشد</p>
+        <p><span class="text-warning"> طراحی سایت</span> توسط شرکت سفارش گیرنده </p>
+      </div>
+    </div>
     </footer>
     <!-- end of footer  -->
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
     <script src="scripts/jquery-3.6.0.slim.min.js" ></script>
     <script src="scripts/bootstrap.bundle.min.js"></script>
     <script src="scripts/bootstrap.min.css"></script>
